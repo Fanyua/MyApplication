@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
-        int mScreenWidth = dm.widthPixels;//  获取屏幕分辨率宽度
+        int mScreenWidth = dm.widthPixels;// 获取屏幕分辨率宽度
         int mScreenHeight = dm.heightPixels;
         width=mScreenWidth;
         pager=(ViewPager)findViewById(R.id.viewpager);
